@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "https://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+
+<extension version="3.6" type="template" client="site">
+	<name>infinity</name>
+	<creationDate>14 February 2017</creationDate>
+	<author>Yaroslav Koshovyi</author>
+	<authorEmail>yaroslav@stotle.io</authorEmail>
+	<copyright>Copyright Infinity.</copyright>
+	<license>Infinity License.</license>
+	<version>3.6.0</version>
+	<description>TPL_INFINITY_XML_DESCRIPTION</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>lang</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+		<filename>component.php</filename>
+	</files>
+
+	<positions>
+		<position>debug</position>
+		<position>header</position>
+		<position>header-content</position>
+		<position>content-box-1</position>
+		<position>content-box-2</position>
+		<position>content-box-3</position>
+		<position>content-box-4</position>
+		<position>content-box-5</position>
+		<position>content-box-6</position>
+		<position>content-box-7</position>
+		<position>content-box-8</position>
+		<position>menu-box</position>
+		<position>footer</position>
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_infinity.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_infinity.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params"></fields>
+	</config>
+</extension>

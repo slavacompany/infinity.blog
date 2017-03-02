@@ -1,0 +1,29 @@
+body.infinity-landing {
+    background: #fff;
+    color: #000000;
+    font-size: 100.1%;
+    padding: 0px;
+    text-align: center;
+    width: 1440px;
+    height: 100%;
+}
+
+.main{
+
+}
+
+.main .header{}
+
+.main .content{}
+
+.main .footer-container{}
+
+.main .footer-container .footer{}
+
+body.contentpane {
+	width:auto;
+	margin:10px;
+	text-align: left;
+}
+
+img { border: 0 none; }
